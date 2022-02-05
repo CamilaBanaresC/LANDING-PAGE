@@ -1,3 +1,5 @@
+
+
 body{
 background-image: url("https://cdn.pixabay.com/photo/2016/04/30/13/12/sutterlin-1362879_960_720.jpg");
 margin:20px;
@@ -5,7 +7,7 @@ border:10%;
 }
 
 nav{
-Background-color:white
+Background-color:white;
 }
 
 #boton{
@@ -44,15 +46,16 @@ header{
 section{
     Background-color:white;
     width:70%;
-    margin:10px;
+    margin:350%;
     border-color:blueviolet;
     border:5%; 
     padding:2%;
 }
+
+
 div#Botoninicio button{
 margin-left:800%;
 width:110px;
-
 
 }
 
