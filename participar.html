@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/desafio-talento-digital/css" rel="stylesheet" type="text/css">
+
+    <title>principal</title>
+</head>
+
+<body>
+
+
+
+    <header >
+      <div class="centrocentro">
+        <a href="index.html"> 
+        <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Volver al menu</button>
+        </a>
+          <button type="button" class="btn btn-primary active" data-bs-toggle="button" autocomplete="off" aria-pressed="true">Active toggle button</button>
+          <button type="button" class="btn btn-primary" disabled data-bs-toggle="button" autocomplete="off">Disabled toggle button</button>
+      </div>
+    </header>
+
+    <section>
+<!--Aqui termina el boton-->
+    
+  <h1>Nombres </h1>
+    <div class="input-group input-group-lg">
+        <span class= "input-group-text" id="inputGroup-sizing-lg">Nombres</span> 
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    
+    <div class="input-group input-group-lg">
+        <span class= "input-group-text" id="inputGroup-sizing-lg"> Apellido P -</span> 
+        <br>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    
+    <div class="input-group input-group-lg">
+        <span class= "input-group-text" id="inputGroup-sizing-lg"> Apellido M -</span>
+        <br>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+   
+    <div class="input-group input-group-lg">
+        <span class= "input-group-text" id="inputGroup-sizing-lg"> Correo - </span>
+        <br>
+        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+  
+
+<!--Aqui derminan las lineas de rellenado-->
+<div class=container row col-md-12>
+    <label class="form-check-label" for="exampleRadios1">
+     <h3>Seleccione su sexo</h3>
+    </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    <label class="form-check-label" for="exampleRadios2">
+      Sexo Femenino
+    </label>
+</div>
+<div class="form-check">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option2" >
+    <label class="form-check-label" for="exampleRadios3">
+      Sexo Masculino
+    </label>
+</div>
+<!--Aqui termina la seleccion de sexo-->
+<p>
+  <h3>Seleccióne su rango de edad</h3>
+    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">7 - 18</a>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">21-45</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">45-75</button>
+    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">75-++</button>
+  </p>
+  </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<Aside>
+
+
+</Aside>
+
+</body>
+</html>

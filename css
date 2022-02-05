@@ -1,0 +1,59 @@
+body{
+background-image: url("https://cdn.pixabay.com/photo/2016/04/30/13/12/sutterlin-1362879_960_720.jpg");
+margin:20px;
+border:10%;
+}
+
+nav{
+Background-color:white
+}
+
+#boton{
+    width:100%;
+
+}
+#bibliografia{
+font-family:fantasy;
+
+}
+#texto-bibliografia{
+    font-family:cursive;
+
+}
+
+#tamaño_entrada{
+    width:70%;
+    font-size-adjust:80px;
+    position: relative;
+
+
+}
+header{
+    Background-color:white;
+    width:80%;
+    height:05%;
+    margin:20px;
+    border-color:blueviolet;
+    border:20%; 
+    padding:05%;
+}
+
+
+
+
+section{
+    Background-color:white;
+    width:70%;
+    margin:10px;
+    border-color:blueviolet;
+    border:5%; 
+    padding:2%;
+}
+div#Botoninicio button{
+margin-left:800%;
+width:110px;
+
+
+}
+
+
