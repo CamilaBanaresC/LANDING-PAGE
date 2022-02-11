@@ -76,5 +76,63 @@ Y un formulario de contacto para consultas y quejas.
     </div>  
 
   <br><br><br>
+<section>
+    <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" placeholder="Juan Perez">
+            <div id="feedback-name" class="">                    
+            </div>       
+          </div>
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        <div id="feedback-email" class="">                    
+        </div>       
+      </div>
+      <label class="form-label select-label">Razon del envío</label>
+     <!--Razon del envio-->
+      <div class= container>
+      <select class="select" multiple>
+        <option value="1">Reclamos</option>
+        <option value="2">Felicitaciones</option>
+        <option value="3">Sugerencias</option>
+      </select>
+    </div>
+    <!--TEXTO-->
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Por favor, Sus comentarios Aqui.</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <div id="feedback-text" class="" placeholder="Aqui van sus comentarios">
+      </div>
+      <!--BOTONES-->
+      <button  id="limpiar" type="click" class="btn btn-secondary">Limpiar</button>
+      <button  id="boton" type="click" class="btn btn-outline-primary">Enviar</button>
+    </div>
+
+</section>
+
+
+</section>
+<nav class="py-2 bg-light border-bottom">
+  <div class="container d-flex flex-wrap">
+    <ul class="nav me-auto">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Reuniones</a></li>
+      <li class="nav-item"><a href="sobrenosotros.html" class="nav-link link-dark px-2">Sobre nosotros</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Trabaja con nosotros</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Blog</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Contacto</a></li>
+      <a>
+      <li class="nav-item"><a href="sugerenciasyreclamos.html" class="nav-link link-dark px-2">sugerencias y reclamos</a></li>
+    </a>
+    </ul>
+    <ul class="nav">
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Login</a></li>
+      <li class="nav-item"><a href="#" class="nav-link link-dark px-2">Crear Cuenta</a></li>
+    </ul>
+  </div>
+</nav>
+
+<script src="miestilo.js"></Script>
 </body>
 </html>
