@@ -60,48 +60,46 @@
                     <span class="badge bg-primary rounded-pill" _msthash="1320865" _msttexthash="4641">3</span>
                 </h4>
                 <ul class="list-group mb-3">
+                    
                     <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div class="form-check"></div>
+                        <input type="checkbox" class="form-check-input" id="same-address">
                         <div>
-                            <h6 class="my-0" _msthash="1855802" _msttexthash="355511">PACK LAVADO COMPLETO</h6>
+                            <h6 class="my-0" _msthash="1855802" _msttexthash="355511">Lavado exterior</h6>
                             <small class="text-muted" _msthash="1555567" _msttexthash="355043">Breve descripción</small>
                         </div>
-                        <span class="text-muted" _msthash="1617447" _msttexthash="40339">$25.000</span>
+                        <span class="text-muted" _msthash="1617447" _msttexthash="40339">$7.000</span>
                     </li>
+                    
                     <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div class="form-check"></div>
+                        <input type="checkbox" class="form-check-input" id="same-address">
                         <div>
-                            <h6 class="my-0" _msthash="1856075" _msttexthash="295503">LAVADO TAPIZ </h6>
+                            <h6 class="my-0" _msthash="1856075" _msttexthash="295503">Lavado de motor </h6>
                             <small class="text-muted" _msthash="1555775" _msttexthash="355043">Breve descripción</small>
                         </div>
-                        <span class="text-muted" _msthash="1617668" _msttexthash="34099">$17.000</span>
+                        <span class="text-muted" _msthash="1617668" _msttexthash="34099">$5.000</span>
                     </li>
-                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                        <div>
-                            <h6 class="my-0" _msthash="1856348" _msttexthash="186914">PACK LAVADO COMPLETO + TAPIZ</h6>
-                            <small class="text-muted" _msthash="1555983" _msttexthash="355043">Breve descripción</small>
+                    
+                    <div class= "row col-md-6">
+                        <label for="state" class="form-label" _msthash="2297568" _msttexthash="76037">Prestador de servicio </label>
+                        <select class="form-select" id="state" required="">
+                            <option value="" _msthash="244218" _msttexthash="101647">Seleccion</option>
+                            <option _msthash="244400" _msttexthash="154310">Juan Perez Gonzalez</option>
+                            <option _msthash="244400" _msttexthash="154310">Gloria Carcamo Mora</option>
+                            <option _msthash="244400" _msttexthash="154310">Matias Garrido Aqueveque</option>
+                           
+                        </select>
+                        <div class="invalid-feedback" _msthash="2154282" _msttexthash="631839" _msthidden="1">
                         </div>
-                        <span class="text-muted" _msthash="1617889" _msttexthash="33709">$30.000</span>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between bg-light">
-                        <div class="text-success">
-                            <h6 class="my-0" _msthash="1856621" _msttexthash="365313">Código promocional</h6>
-                            <small _msthash="1556191" _msttexthash="124995">EXAMPLECODE</small>
-                        </div>
-                        <span class="text-success" _msthash="1618110" _msttexthash="803647">−$5</span>
-                    </li>
+                    </div>
+                
                     <li class="list-group-item d-flex justify-content-between">
                         <span _msthash="1618175" _msttexthash="118313">Total (USD)</span>
                         <strong _msthash="1748370" _msttexthash="40183"></strong>
                     </li>
                 </ul>
 
-                <form class="card p-2">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Código promocional"
-                            _mstplaceholder="365313">
-                        <button type="submit" class="btn btn-secondary" _msthash="1959061"
-                            _msttexthash="94549">Redimir</button>
-                    </div>
-                </form>
             </div>
             <div class="col-md-7 col-lg-8">
                 <h4 class="mb-3" _msthash="968656" _msttexthash="595764">ORDEN DE TRABAJO</h4>
@@ -230,8 +228,29 @@
                 </div>
             </div>
             
-        
-
+            <div class="col-md-4">
+                <label for="state" class="form-label" _msthash="2297568" _msttexthash="76037">Año </label>
+                <select class="form-select" id="state" required="">
+                    <option value="" _msthash="244218" _msttexthash="101647">Elegir...</option>
+                    <option _msthash="244400" _msttexthash="154310">1980-1990</option>
+                    <option _msthash="244400" _msttexthash="154310">1991-2000</option>
+                    <option _msthash="244400" _msttexthash="154310">2001-2010</option>
+                    <option _msthash="244400" _msttexthash="154310">2011-2021</option>
+                    <option _msthash="244400" _msttexthash="154310">Del año</option>
+                </select>
+                <div class="invalid-feedback" _msthash="2154282" _msttexthash="631839" _msthidden="1">
+                </div>
+            </div>
+            <br>
+            Seleccione si es correcto
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address" _msthash="1885065" _msttexthash="2733666">	Revisión técnica al día.</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="same-address">
+                <label class="form-check-label" for="same-address" _msthash="1885065" _msttexthash="2733666">	Aun no tiene su revisión tecnica.</label>
+            </div>
 
 
         </div> <!--Aqui cierra el text center-->
